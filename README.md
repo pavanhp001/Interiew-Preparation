@@ -16,6 +16,14 @@ Core Java:
 	can private modifier applicable for class
 	can static modifier applicable for class
 	
+writer a program for:
+=======================
+	Find duplicates in array
+	Reverse the given string without predefine functions
+	Count the accurency words in file.
+	
+
+	
 
 Collections: 
     Concurrence api,  
@@ -24,6 +32,8 @@ Collections:
     Diff b/w Arraylist and LinkedList and how it works. 
 	Diff b/w (FailFast and Fail safe)(HashMap and Hashtable and concurrentHashMap)()
     How do u iterate Map 
+    Why we need to go for collections
+    
 
 Exception Handling: 
 ==================== 
@@ -74,5 +84,6 @@ Multithreading
 	purpose of join() wait() sleep() etc.
 	CountDownLoutch class.
 	Thread dumps or analyze Thread Dumps
+	Tell me real time examples for multithreading.
 	
 	
