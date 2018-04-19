@@ -1,0 +1,8 @@
+Session sticky ness:
+=====================
+  Means -> while load balancing servers 01A and 01B are maintaining the applications 
+  If request is going to server 01A then all requests must go to same 01A server so the session is maintain in 01A server.
+  If the same request going to 01B then there is no session available in server 01B server
+  
+  so, response is back as session expires on the clint side.
+  
