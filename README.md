@@ -1,7 +1,6 @@
 # Interiew-Preparation
 
 Java 8 Features: 
-
 ================== 
 
 	interfaces: default methods, static methods, (benefits). 
@@ -10,6 +9,7 @@ Java 8 Features:
 	Functional Interface. 
 
 Core Java: 
+==========
 
 	Diff b/w JDK, JRE, 
 	Class Loaders.
@@ -22,10 +22,8 @@ writer a program for:
 	Reverse the given string without predefine functions
 	Count the accurency words in file.
 	
-
-	
-
 Collections: 
+==============
     Concurrence api,  
     Api and there complexity O() notations. 
     How HashMap works internally. 
@@ -47,7 +45,7 @@ Serialization:
     Why we need Externalizable 
     purpose of static and transient key words. 
 
-OOPs 
+OOPs :
 ======== 
 	Prepare for Coding exercises 
 	Design Car class
@@ -60,7 +58,7 @@ OOPs
 	Diff b/w (composition and aggrigation),(overloading and overriding)
 
 
-Disign princeples
+Disign princeples:
 =================
 SOLID
 (SRP,OCP,LSP, ISP,DIP)
@@ -85,5 +83,25 @@ Multithreading
 	CountDownLoutch class.
 	Thread dumps or analyze Thread Dumps
 	Tell me real time examples for multithreading.
+	
+Spring:
+===========
+	What is dependency injection.
+	What is IOC.
+	How Spring internally works.
+	Tell me spring architecture.
+		
+
+Jpa:(Hibernate)
+=================
+
+	http://www.thejavageek.com/jpa-tutorials/
+
+	How do you configure the JPA in ur spring application.
+	What is diff bw crieria and Projections in JPA.
+	how do u configure many to many relation.
+	
+	
+
 	
 	
