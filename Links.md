@@ -9,7 +9,7 @@ https://java2blog.com/data-structure-and-algorithm-interview-questions-in-java/
 
 JPA:
 =====
-http://www.thejavageek.com/jpa-tutorials/ /n
+http://www.thejavageek.com/jpa-tutorials/ <br>
 http://www.javased.com/?api=javax.persistence.criteria.Root
 
 Benjamin Winterberg:
@@ -29,13 +29,13 @@ http://www.geeksforgeeks.org/subarrays-distinct-elements/
 https://www.thebalance.com/active-listening-skills-with-examples-2059684
 https://github.com/in28minutes/JavaInterviewQuestionsAndAnswers
 https://cdn.journaldev.com/wp-content/uploads/2013/01/java-collections-framework.pdf
-***  http://javaconceptoftheday.com/java-interview-programs-with-solutions/ /n
-http://websystique.com/springmvc/spring-mvc-4-angularjs-example/ /n
-http://capptitudebank.blogspot.in/2012/04/hcl-java-interview-questions-and_2971.html#.Ws9pgKJ8uyq /n
-** http://www.instanceofjava.com/2016/03/core-java-interview-programs-freshers.html \n
-** http://crackingjavainterviews.blogspot.in/2015/02/how-would-you-count-word-occurrence-in.html /n
-** http://crackingjavainterviews.blogspot.in/2013/04/top-interview-questions-for-investment.html /n
-https://www.javacodegeeks.com/2015/11/top-20-core-java-interview-questions-and-answers-from-investment-banks.html /n
+***  http://javaconceptoftheday.com/java-interview-programs-with-solutions/ <br>
+http://websystique.com/springmvc/spring-mvc-4-angularjs-example/ <br>
+http://capptitudebank.blogspot.in/2012/04/hcl-java-interview-questions-and_2971.html#.Ws9pgKJ8uyq <br>
+** http://www.instanceofjava.com/2016/03/core-java-interview-programs-freshers.html <br>
+** http://crackingjavainterviews.blogspot.in/2015/02/how-would-you-count-word-occurrence-in.html <br>
+** http://crackingjavainterviews.blogspot.in/2013/04/top-interview-questions-for-investment.html <br>
+https://www.javacodegeeks.com/2015/11/top-20-core-java-interview-questions-and-answers-from-investment-banks.html <br>
 
 Muliti Threading:
 ====================
