@@ -6,7 +6,8 @@ Java 8 Features:
 	interfaces: default methods, static methods, (benefits). 
 	Stream Api : diff b/w normal collection and Stream api. 
 	Lambda expression : Functional style. Annotation.
-	Functional Interface. 
+	Functional Interface.
+	java memory model.
 
 Core Java: 
 ==========
@@ -28,9 +29,11 @@ Collections:
     Api and there complexity O() notations. 
     How HashMap works internally. 
     Diff b/w Arraylist and LinkedList and how it works. 
-	Diff b/w (FailFast and Fail safe)(HashMap and Hashtable and concurrentHashMap)()
+    Diff b/w (FailFast and Fail safe)(HashMap and Hashtable and concurrentHashMap)()
     How do u iterate Map 
     Why we need to go for collections
+    Diff b/w HashMap, LinkedHashMap, Hashtable, and TreeMap and how did u used in ur system
+    Diff b/w ArrayList, LinkedList, HashSet, TreeSet, LinkedHashSet
     
 
 Exception Handling: 
@@ -100,8 +103,4 @@ Jpa:(Hibernate)
 	How do you configure the JPA in ur spring application.
 	What is diff bw crieria and Projections in JPA.
 	how do u configure many to many relation.
-	
-	
-
-	
 	
