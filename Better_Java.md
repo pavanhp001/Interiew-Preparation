@@ -28,7 +28,8 @@ public class DataHolder {
 
 This is verbose and wasteful. Even if your IDE automatically generated this code, it's a waste. So, don't do this.<br>
 
-Instead, I prefer the C struct style of writing classes that merely hold data:<br>
+Instead, I prefer the C struct style of writing classes that merely hold data:
+================================
 
 public class DataHolder {
     public final String data;
@@ -48,6 +49,7 @@ If you have a rather complicated object that you want to build a struct for, con
 You make a subclass in your object which will construct your object. It uses mutable state, but as soon as you call build, it will emit an immutable object.<br>
 
 Imagine we had a more complicated DataHolder. The builder for it might look like:
+================================
 
 public class ComplicatedDataHolder {
     public final String data;
@@ -94,8 +96,8 @@ Avoid Nulls <br>
 
 Try to avoid using nulls when you can. Do not return null collections when you should have instead returned an empty collection. If you're going to use null, consider the @Nullable annotation. IntelliJ IDEA has built-in support for the @Nullable annotation. <br>
 
-If you're using Java 8, you can use the excellent new Optional type. If a value may or may not be present, wrap it in an Optional class like this: <br>
-
+If you're using Java 8, you can use the excellent new Optional type. If a value may or may not be present, wrap it in an Optional class like this:
+================================
 public class FooWidget {
     private final String data;
     private final Optional<Bar> bar;
@@ -114,7 +116,10 @@ public class FooWidget {
     }
 }
 
-So now it's clear that data will never be null, but bar may or may not be present. Optional has methods like isPresent, which may make it feel like not a lot is different from just checking null. But it allows you to write statements like:
+So now it's clear that data will never be null, but bar may or may not be present. Optional has methods like isPresent, which may make it feel like not a lot is different from just 
+
+checking null. But it allows you to write statements like:
+================================
 
 final Optional<FooWidget> fooWidget = maybeGetFooWidget();
 final Baz baz = fooWidget.flatMap(FooWidget::getBar)
@@ -127,7 +132,7 @@ Immutable-by-default <br>
 Unless you have a good reason to make them otherwise, variables, classes, and collections should be immutable.
 
 Variable references can be made immutable with final:
-
+================================
 final FooWidget fooWidget;
 if (condition()) {
     fooWidget = getWidget();
@@ -188,7 +193,7 @@ The corollary of this is to not document what doesn't need documenting. If you d
 Streams <br>
 
 Java 8 has a nice stream and lambda syntax. You could write code like this:
-
+================================
 final List<String> filtered = list.stream()
     .filter(s -> s.startsWith("s"))
     .map(s -> s.toUpperCase())
@@ -225,7 +230,7 @@ I like to have a root POM with all of the external dependencies you want to use.
 If you think that tagging your root POM for every external dependency change is too much, you haven't wasted a week tracking down cross project dependency errors. <br>
 
 All of your Maven projects will include your root POM and all of its version information. This way, you get your company's selected version of each external dependency, and all of the correct Maven plugins. If you need to pull in external dependencies, it works just like this: <br>
-
+================================
 <dependencies>
     <dependency>
         <groupId>org.third.party</groupId>
@@ -245,8 +250,10 @@ Widget library depends on Bar library v0.9
 
 Which version will get pulled into your project? <br>
 
-With the Maven dependency convergence plugin, the build will error if your dependencies don't use the same version. Then, you have two options for solving the conflict: <br>
+With the Maven dependency convergence plugin, the build will error if your dependencies don't use the same version. Then, you 
 
+have two options for solving the conflict: <br>
+================================
     Explicitly pick a version for Bar in your dependencyManagement section
     Exclude Bar from either Foo or Widget
 
@@ -348,7 +355,7 @@ public class Foo {
 }
 
 Now you can do this:
-
+================================
 final Foo foo = new Foo();
 foo.setVar(5);
 
@@ -356,7 +363,7 @@ And there's so much more. I haven't used Lombok in production yet, but I can't w
 Play framework
 
 Good alternatives: Jersey or Spark
-
+================================
 There are two main camps for doing RESTful web services in Java: JAX-RS and everything else.
 
 JAX-RS is the traditional way. You combine annotations with interfaces and implementations to form the web service using something like Jersey. What's nice about this is you can easily make clients out of just the interface class.
@@ -470,7 +477,7 @@ Eclipse Memory Analyzer
 Memory leaks happen, even in Java. Luckily, there are tools for that. The best tool I've used to fix these is the Eclipse Memory Analyzer. It takes a heap dump and lets you find the problem.
 
 There's a few ways to get a heap dump for a JVM process, but I use jmap:
-
+================================
 $ jmap -dump:live,format=b,file=heapdump.hprof -F 8152
 Attaching to process ID 8152, please wait...
 Debugger attached successfully.
