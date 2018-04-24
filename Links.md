@@ -48,7 +48,11 @@ https://www.c-sharpcorner.com/article/top-50-angularjs-interview-questions-and-a
 https://github.com/techcbt/youtube-channel-source-code <br> 
 https://code.tutsplus.com/tutorials/mastering-angularjs-directives--cms-22511 <br>
 http://busypeoples.github.io/post/thinking-in-components-angular-js/ <br>
-https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
+https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md <br>
+
+JavaScript:
+==============
+https://www.thatjsdude.com/jsConcepts/concepts/array.html
 
 OOPS:
 ============
