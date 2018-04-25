@@ -7,6 +7,13 @@ http://infotechgems.blogspot.in/2011/11/java-collections-performance-time.html <
 https://www.programcreek.com/2013/09/top-10-questions-for-java-collections/ <br>
 https://java2blog.com/data-structure-and-algorithm-interview-questions-in-java/ <br>
 
+Java 8:
+===========
+https://github.com/java8/Java8InAction <br>
+https://github.com/hacking-code/java8-guides-tutorials <br>
+https://github.com/winterbe/java8-tutorial <br>
+https://github.com/eugenp/tutorials/tree/master/core-java-8 <br>
+
 JPA:
 =====
 http://www.thejavageek.com/jpa-tutorials/ <br>
