@@ -19,6 +19,10 @@ JPA:
 http://www.thejavageek.com/jpa-tutorials/ <br>
 http://www.javased.com/?api=javax.persistence.criteria.Root <br>
 
+97-things-every-programmer-should-know
+==========================================
+https://github.com/97-things/97-things-every-programmer-should-know
+
 Benjamin Winterberg:
 =======================
 https://github.com/winterbe <br>
