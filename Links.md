@@ -13,6 +13,7 @@ https://github.com/thombergs/tutorials
 
 Java 8:
 ===========
+https://github.com/eugenp/tutorials/tree/master/core-java-8 <br>
 https://github.com/java8/Java8InAction <br>
 https://github.com/hacking-code/java8-guides-tutorials <br>
 https://github.com/winterbe/java8-tutorial <br>
